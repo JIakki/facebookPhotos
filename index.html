@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Google Grid Gallery</title>
+	
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<script src="https://code.jquery.com/jquery-1.12.3.min.js"   integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ="   crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div id="grid-gallery" class="grid-gallery">
+				
+			</div>
+		</div>
+		<script src="dist/index.min.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function () {
+				$('#grid-gallery').gridImage({
+					token: 'CAACEdEose0cBAEr0w4dNR3dsPUaZCiHgBXsGK20GpGkZBfCKTj8AmnRWZBUznnZB8ytQ5wz0GYpOm16LwZAINMp2kgYq3ViRs33ei7yXAZAeWs14SqhnlgPY3NS3M8RudhyOfr8BMBnNSax48ZAL7oZBgMKMlZBZAfNPU3xnfGkPLcFcZCZAcmZBonIr9j2hEOw0aJUtXUMfGMWrhgm3pjzua8AXt',
+					id : 'fcbarcelona',
+					limit: 100,
+					class: 'col-xs-6 col-sm-3'
+				})
+			})
+		</script>
+	</body>
+</html>
